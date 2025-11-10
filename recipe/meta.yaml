@@ -1,5 +1,5 @@
 {% set name = "memory_graph" %}
-{% set version = "0.3.62" %}
+{% set version = "0.3.64" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 122782d5c2c4b7bc8eb6548bcb973061873ef6cd107202f7f92b21bc0a4b3c7c
+  sha256: 1eebc6992fe4f1a60f56961cfe510ef610f194ad7a375c906d9cb6f8ba6ef659
 
 build:
   noarch: python
